@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
 import ls from 'local-storage'
-import NumberShower from './NumberShower'
+import Login from './Login'
+
 
 
 class App extends React.Component {
@@ -15,7 +16,9 @@ class App extends React.Component {
 
     render() {
         return (
-            <div></div>
+            <div>
+                <Login />
+            </div>
         )
     }
 
